@@ -1,3 +1,2 @@
----
-# This is meant to demonstrate ansible local usage.
-- include: tasks/openssh-setup.yml 
+- hosts: all
+  include: tasks/test.yml
