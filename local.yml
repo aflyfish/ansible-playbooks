@@ -1,2 +1,3 @@
 - hosts: all
-  include: tasks/test.yml
+  tasks:
+   - include: tasks/test.yml
